@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/csi-26-atividade7-react/'>
       <Layout>
         <Routes>
           <Route path="/add" element={<AddProduct />} />
