@@ -7,7 +7,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/products');
+        const response = await axios.get('https://csi-26-atividade7-server.onrender.com/products');
         setProducts(response.data);
       } catch (error) {
         console.error("Error fetching products:", error);

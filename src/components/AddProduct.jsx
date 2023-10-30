@@ -8,7 +8,7 @@ const AddProduct = () => {
     event.preventDefault();
 
     try {
-      await axios.post('http://localhost:3001/products', { name: productName });
+      await axios.post('https://csi-26-atividade7-server.onrender.com/products', { name: productName });
       setProductName(''); // Reset the form after successful submission
       alert('Product added successfully!');
     } catch (error) {
