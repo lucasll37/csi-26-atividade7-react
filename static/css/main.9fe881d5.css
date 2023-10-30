@@ -1,0 +1,2 @@
+.layout-container{display:flex;flex-direction:column;font-family:Arial,sans-serif;min-height:100vh}header{align-items:center;background-color:#282c34;color:#fff;display:flex;justify-content:space-between;padding:1rem}nav a{color:#fff;margin-left:1rem;text-decoration:none}main{flex:1 1}footer,main{padding:1rem}footer{background-color:#f0f0f0;text-align:center}
+/*# sourceMappingURL=main.9fe881d5.css.map*/
